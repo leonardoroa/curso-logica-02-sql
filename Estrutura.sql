@@ -18,3 +18,10 @@ CREATE table carros (
     preco DOUBLE, # DOUBLE SERVE PARA UM NÚMERO REAL 
     data_fabricacao DATE# DATE SERVE PARA DATA
     );
+    
+    DROP TABLE IF exists alimentos; 
+    CREATE TABLE alimentos(
+		id INT PRIMARY KEY AUTO_INCREMENT, 
+        nome VARCHAR(100) NOT NULL 
+    );
+    

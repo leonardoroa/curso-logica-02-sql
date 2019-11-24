@@ -18,3 +18,11 @@ insert into carros(id, modelo, cor, preco, ano)
 value(5, 'Gol', 'Branco', 11000, 2001);
 
 select * from carros; 
+
+INSERT INTO alimentos (NOME) VALUE 
+('Nescau'),
+('Nescau cereal'),
+('Bebida Neston'),
+('Polenta com Nes'),
+('Achocolatado da Tirol');
+
